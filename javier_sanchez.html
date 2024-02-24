@@ -1,0 +1,102 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Javier Sanchez</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Description" content="Javier Sanchez personal space">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" >
+    <style>
+      div.mainpic {
+        width: 18%;
+        height: 100%;
+        min-width: 250px;
+      }
+      .mainpic  img {
+        width: 100%;
+        height: auto;
+        border-radius: 50%;
+      }
+
+    .centered {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        margin: 10% 0;
+        min-height: 200px;
+        align-items: center;
+    }
+
+    .centered div {
+      font-size: 4em;
+      margin-top: 2rem;
+    }
+    @-moz-keyframes spin {
+    from { -moz-transform: rotate(0deg); }
+    to { -moz-transform: rotate(360deg); }
+    }
+    @-webkit-keyframes spin {
+        from { -webkit-transform: rotate(0deg); }
+        to { -webkit-transform: rotate(360deg); }
+    }
+    @keyframes spin {
+        from {transform:rotate(0deg);}
+        to {transform:rotate(360deg);}
+    }
+    .centered div a {
+      margin-left: 1rem;
+      margin-right: 1rem;
+    }
+    a:link {
+      color: #333;
+    }
+
+    a:visited{
+      color: #333;
+    }
+
+    a:hover{
+      color: #999999;
+    }
+
+    a:active{
+      color: #999999;
+    }
+    
+    a:hover i
+    {
+      -webkit-animation-name: spin;
+    -webkit-animation-duration: 2000ms;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-out;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 2000ms;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: ease-out;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 2000ms;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: ease-out;
+    animation-name: spin;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    }
+  </style>
+  </head>
+  <body>
+    <div class="centered">
+      <div class="mainpic">
+        <img src="img/javier_photo.jpg" alt="Javier photo">
+      </div>
+      <div>
+	       <a href="https://www.linkedin.com/in/ing-javier-sanchez/"><i class="fab fa-linkedin"></i></a> 
+	       <a href="/cv.pdf"><i class="far fa-file-pdf"></i></a>  
+	       <a href="mailto:ing.javier.sanchez.b@gmail.com"><i class="fas fa-envelope"></i></a>
+	      <a href="https://github.com/JavieSanchezB"><i class="fab fa-github"></i></a> </div>
+    </div>
+  </body>
+</html>
